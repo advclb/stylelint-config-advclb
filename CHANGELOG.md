@@ -20,31 +20,12 @@ section when releasing.
 
 ### Removed
 
-## [1.0.0] - 2019-10-21
+## [0.1.0] - 2019-10-20
 
 ### Added
 
-- Some new feature
+- SCSS support
+- Prettier support
 
-### Changed
-
-- Some behavior
-- **BREAKING CHANGE**: means you need to increase major version
-
-### Deprecated
-
-- Something still support but not recommend
-
-### Fixed
-
-- Some bug
-
-### Removed
-
-- Something not wanted
-
-## [0.0.1] - 2019-10-20
-
-[unreleased]: https://github.com/advclb/foobar/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/advclb/foobar/compare/v0.3.0...v1.0.0
-[0.0.1]: https://github.com/advclb/foobar/releases/tag/v0.0.1
+[unreleased]: https://github.com/advclb/stylelint-config/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/advclb/stylelint-config/releases/tag/v0.1.0
