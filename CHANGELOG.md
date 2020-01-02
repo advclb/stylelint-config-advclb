@@ -20,6 +20,12 @@ section when releasing.
 
 ### Removed
 
+## [0.1.1] - 2019-10-20
+
+### Fixed
+
+- README config example
+
 ## [0.1.0] - 2019-10-20
 
 ### Added
@@ -27,5 +33,6 @@ section when releasing.
 - SCSS support
 - Prettier support
 
-[unreleased]: https://github.com/advclb/stylelint-config/compare/v0.1.0...HEAD
+[unreleased]: https://github.com/advclb/stylelint-config/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/advclb/stylelint-config/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/advclb/stylelint-config/releases/tag/v0.1.0

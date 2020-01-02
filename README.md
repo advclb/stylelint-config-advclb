@@ -13,7 +13,7 @@ Edit .stylelintrc.json:
 
 ```json
 {
-  "extends": ["@advclb"]
+  "extends": ["@advclb/stylelint-config"]
 }
 ```
 
