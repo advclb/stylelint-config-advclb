@@ -1,0 +1,9 @@
+// Good
+@mixin ac-good() {
+  color: #ffffff;
+}
+
+// Bad: mixin name not start with "ac-"
+@mixin bad() {
+  color: #000000;
+}

@@ -1,0 +1,9 @@
+// Good
+@mixin good-mixin {
+  color: #ffffff;
+}
+
+// Good
+.box {
+  @include good-mixin();
+}

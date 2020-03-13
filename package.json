@@ -1,10 +1,10 @@
 {
   "name": "@advclb/stylelint-config",
   "version": "0.1.1",
-  "description": "stylelint-config library",
+  "description": "Adventure Club shareable stylelint configuration",
   "main": "index.js",
   "scripts": {
-    "test": "stylelint tests/*"
+    "test": "stylelint tests/*/*css"
   },
   "repository": {
     "type": "git",
@@ -16,27 +16,20 @@
     "url": "https://github.com/advclb/stylelint-config/issues"
   },
   "homepage": "https://github.com/advclb/stylelint-config#readme",
-  "devDependencies": {
-    "eslint": "^6.6.0",
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-prettier": "^3.1.1",
-    "prettier": "^1.19.1",
-    "prettier-eslint": "^9.0.1",
-    "prettier-stylelint": "^0.4.2",
-    "stylelint": "^12.0.0",
-    "stylelint-config-prettier": "^8.0.0",
-    "stylelint-config-recommended": "^3.0.0",
-    "stylelint-prettier": "^1.1.1",
-    "stylelint-scss": "^3.13.0"
+  "dependencies": {
+    "prettier-stylelint": "latest",
+    "stylelint-config-prettier": "latest",
+    "stylelint-config-standard": "latest",
+    "stylelint-prettier": "latest",
+    "stylelint-scss": "latest"
   },
-  "peerDependencies": {
-    "prettier": "^1.19.1",
-    "prettier-stylelint": "^0.4.2",
-    "stylelint": "^12.0.0",
-    "stylelint-config-prettier": "^8.0.0",
-    "stylelint-config-recommended": "^3.0.0",
-    "stylelint-prettier": "^1.1.1",
-    "stylelint-scss": "^3.13.0"
+  "devDependencies": {
+    "stylelint": "latest",
+    "prettier": "latest",
+    "eslint": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-prettier": "latest",
+    "prettier-eslint": "latest"
   }
 }

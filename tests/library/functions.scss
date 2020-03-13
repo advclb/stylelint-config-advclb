@@ -1,0 +1,9 @@
+// Good
+@function ac-thin-border($color) {
+  @return 1px solid $color;
+}
+
+// Bad: function name not start with "ac-"
+@function duration-faster($duration) {
+  @return $duration - 0.1s;
+}

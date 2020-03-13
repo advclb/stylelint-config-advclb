@@ -10,15 +10,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 Add things here whenever you change something notable. Move them to a version
 section when releasing.
 
+## [0.2.0] - 2020-03-13
+
 ### Added
+
+- library: library specific naming patterns
+- scss: rules for functions, mixins, imports, variables
+- npm: other configs as dependencies
 
 ### Changed
 
-### Deprecated
-
-### Fixed
-
-### Removed
+- css: use long color format
 
 ## [0.1.1] - 2019-10-20
 

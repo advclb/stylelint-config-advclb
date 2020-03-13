@@ -1,0 +1,13 @@
+// Good
+@function thin-border($color) {
+  @return 1px solid $color;
+}
+// Good
+.box {
+  border: thin-border(#ffffff);
+}
+
+// Bad: parameters must not be named (remove "$color:")
+.card {
+  border: thin-border($color: #ffffff);
+}
