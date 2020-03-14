@@ -10,6 +10,8 @@ module.exports = {
 
     // Order
     "order/order": ["custom-properties", "declarations"],
+    // Full list https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+    // Group info https://www.tutorialrepublic.com/css-reference/css3-properties.php
     "order/properties-order": [
       [
         {
@@ -25,6 +27,10 @@ module.exports = {
             "box-sizing",
             "width",
             "height",
+            "max-width",
+            "max-height",
+            "min-width",
+            "min-height",
             "margin",
             "margin-top",
             "margin-bottom",
@@ -101,6 +107,22 @@ module.exports = {
           ]
         },
         {
+          groupName: "multi-column-layout",
+          noEmptyLineBetween: true,
+          properties: [
+            "columns",
+            "column-count",
+            "column-fill",
+            "column-gap",
+            "column-rule",
+            "column-rule-color",
+            "column-rule-style",
+            "column-rule-width",
+            "column-span",
+            "column-width"
+          ]
+        },
+        {
           groupName: "border",
           noEmptyLineBetween: true,
           properties: [
@@ -130,7 +152,158 @@ module.exports = {
             "border-bottom-right-radius",
             "border-bottom-left-radius",
             "border-image",
-            "border-collapse"
+            "border-image-outset",
+            "border-image-repeat",
+            "border-image-slice",
+            "border-image-source",
+            "border-image-width"
+          ]
+        },
+        {
+          groupName: "outline",
+          noEmptyLineBetween: true,
+          properties: [
+            "outline",
+            "outline-color",
+            "outline-offset",
+            "outline-style",
+            "outline-width"
+          ]
+        },
+        {
+          groupName: "background",
+          noEmptyLineBetween: true,
+          properties: [
+            "background",
+            "background-attachment",
+            "background-clip",
+            "background-color",
+            "background-image",
+            "background-position",
+            "background-repeat",
+            "background-size"
+          ]
+        },
+        {
+          groupName: "list",
+          noEmptyLineBetween: true,
+          properties: [
+            "list-style",
+            "list-style-image",
+            "list-style-position",
+            "list-style-type"
+          ]
+        },
+        {
+          groupName: "table",
+          noEmptyLineBetween: true,
+          properties: [
+            "table-layout",
+            "border-collapse",
+            "border-spacing",
+            "caption-side",
+            "empty-cells"
+          ]
+        },
+        {
+          groupName: "before-after",
+          noEmptyLineBetween: true,
+          properties: [
+            "content",
+            "quotes",
+            "counter-reset",
+            "counter-increment"
+          ]
+        },
+        {
+          groupName: "text",
+          noEmptyLineBetween: true,
+          properties: [
+            "color",
+            "direction",
+            "line-height",
+            "letter-spacing",
+            "tab-size",
+            "text-align",
+            "text-align-last",
+            "text-decoration",
+            "text-decoration-color",
+            "text-decoration-line",
+            "text-decoration-style",
+            "text-indent",
+            "text-justify",
+            "text-overflow",
+            "text-shadow",
+            "text-transform",
+            "word-spacing",
+            "word-break",
+            "word-wrap",
+            "white-space",
+            "vertical-align"
+          ]
+        },
+        {
+          groupName: "font",
+          noEmptyLineBetween: true,
+          properties: [
+            "font",
+            "font-family",
+            "font-size",
+            "font-size-adjust",
+            "font-stretch",
+            "font-style",
+            "font-variant",
+            "font-weight"
+          ]
+        },
+        {
+          groupName: "appearance",
+          noEmptyLineBetween: true,
+          properties: [
+            "appearance",
+            "box-shadow",
+            "clear",
+            "clip",
+            "cursor",
+            "float",
+            "opacity",
+            "overflow",
+            "overflow-x",
+            "overflow-y",
+            "resize",
+            "visibility"
+          ]
+        },
+        {
+          groupName: "transform",
+          noEmptyLineBetween: true,
+          properties: [
+            "transform",
+            "transform-origin",
+            "transform-style",
+            "perspective",
+            "perspective-origin",
+            "backface-visibility"
+          ]
+        },
+        {
+          groupName: "animation-transition",
+          noEmptyLineBetween: true,
+          properties: [
+            "animation",
+            "animation-delay",
+            "animation-direction",
+            "animation-duration",
+            "animation-fill-mode",
+            "animation-iteration-count",
+            "animation-name",
+            "animation-play-state",
+            "animation-timing-function",
+            "transition",
+            "transition-delay",
+            "transition-duration",
+            "transition-property",
+            "transition-timing-function"
           ]
         }
       ],
