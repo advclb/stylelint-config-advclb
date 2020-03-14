@@ -10,6 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 Add things here whenever you change something notable. Move them to a version
 section when releasing.
 
+## [0.3.0] - 2020-03-14
+
 ### Added
 
 - order: custom property order
@@ -43,6 +45,8 @@ section when releasing.
 - SCSS support
 - Prettier support
 
-[unreleased]: https://github.com/advclb/stylelint-config/compare/v0.1.1...HEAD
+[unreleased]: https://github.com/advclb/stylelint-config/compare/v0.3.0...HEAD
+[0.3.0]: https://github.com/advclb/stylelint-config/compare/v0.2.0...v0.3.0
+[0.2.0]: https://github.com/advclb/stylelint-config/compare/v0.1.1...v0.2.0
 [0.1.1]: https://github.com/advclb/stylelint-config/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/advclb/stylelint-config/releases/tag/v0.1.0
