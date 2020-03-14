@@ -4,7 +4,7 @@
   "description": "Adventure Club shareable stylelint configuration",
   "main": "index.js",
   "scripts": {
-    "test": "stylelint tests/*/*css"
+    "test": "stylelint --fix tests/*/*css"
   },
   "repository": {
     "type": "git",
@@ -24,11 +24,11 @@
     "stylelint-scss": "latest"
   },
   "devDependencies": {
-    "stylelint": "latest",
-    "prettier": "latest",
     "eslint": "latest",
     "eslint-config-prettier": "latest",
     "eslint-plugin-import": "latest",
-    "eslint-plugin-prettier": "latest"
+    "eslint-plugin-prettier": "latest",
+    "prettier": "latest",
+    "stylelint": "latest"
   }
 }
