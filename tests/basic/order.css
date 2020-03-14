@@ -1,0 +1,11 @@
+.card {
+  position: relative;
+  z-index: inherit;
+  display: inline;
+  width: 100px;
+  height: 200px;
+  flex: 1 1 auto;
+  font-size: 2rem;
+  line-height: 2em;
+  vertical-align: middle;
+}

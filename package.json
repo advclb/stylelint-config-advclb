@@ -20,6 +20,7 @@
     "prettier-stylelint": "latest",
     "stylelint-config-prettier": "latest",
     "stylelint-config-standard": "latest",
+    "stylelint-order": "latest",
     "stylelint-prettier": "latest",
     "stylelint-scss": "latest"
   },

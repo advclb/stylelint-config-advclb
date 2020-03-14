@@ -6,7 +6,7 @@
 ## Installation
 
 ```bash
-npm install --save-dev stylelint@latest @advclb/stylelint-config@latest
+npm install --save-dev prettier stylelint @advclb/stylelint-config
 ```
 
 Edit .stylelintrc.json:
