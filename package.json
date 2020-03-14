@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/advclb/stylelint-config#readme",
   "dependencies": {
-    "prettier-stylelint": "latest",
     "stylelint-config-prettier": "latest",
     "stylelint-config-standard": "latest",
     "stylelint-order": "latest",
@@ -30,7 +29,6 @@
     "eslint": "latest",
     "eslint-config-prettier": "latest",
     "eslint-plugin-import": "latest",
-    "eslint-plugin-prettier": "latest",
-    "prettier-eslint": "latest"
+    "eslint-plugin-prettier": "latest"
   }
 }

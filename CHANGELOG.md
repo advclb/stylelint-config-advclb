@@ -14,6 +14,10 @@ section when releasing.
 
 - order: custom property order
 
+### Removed
+
+- prettier: removed old linter integration (prettier-eslint and prettier-stylelint)
+
 ## [0.2.0] - 2020-03-13
 
 ### Added
