@@ -1,5 +1,5 @@
 {
-  "name": "@advclb/stylelint-config",
+  "name": "stylelint-config-advclb",
   "version": "0.3.0",
   "description": "Adventure Club shareable stylelint configuration",
   "main": "index.js",
