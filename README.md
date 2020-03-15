@@ -6,14 +6,14 @@
 ## Installation
 
 ```bash
-npm install --save-dev prettier stylelint @advclb/stylelint-config
+npm install --save-dev prettier stylelint stylelint-config-advclb
 ```
 
 Edit .stylelintrc.json:
 
 ```json
 {
-  "extends": ["@advclb/stylelint-config"]
+  "extends": ["stylelint-config-advclb"]
 }
 ```
 
@@ -21,7 +21,7 @@ For library project:
 
 ```json
 {
-  "extends": ["@advclb/stylelint-config", "@advclb/stylelint-config/library"]
+  "extends": ["stylelint-config-advclb", "stylelint-config-advclb/library"]
 }
 ```
 
