@@ -25,9 +25,7 @@
   },
   "devDependencies": {
     "eslint": "latest",
-    "eslint-config-prettier": "latest",
-    "eslint-plugin-import": "latest",
-    "eslint-plugin-prettier": "latest",
+    "eslint-config-advclb": "latest",
     "prettier": "latest",
     "stylelint": "latest"
   },
