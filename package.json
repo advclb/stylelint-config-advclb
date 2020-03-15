@@ -30,5 +30,8 @@
     "eslint-plugin-prettier": "latest",
     "prettier": "latest",
     "stylelint": "latest"
+  },
+  "peerDependencies": {
+    "stylelint": "*"
   }
 }
