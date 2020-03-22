@@ -350,9 +350,6 @@ module.exports = {
       "always",
       { except: ["first-nested", "after-comment", "after-dollar-variable"] }
     ],
-    "scss/dollar-variable-no-missing-interpolation": true,
-
-    // SCSS //comment
-    "scss/comment-no-loud": true
+    "scss/dollar-variable-no-missing-interpolation": true
   }
 };
